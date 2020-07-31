@@ -1,0 +1,73 @@
+@import url(https://fonts.googleapis.com/css?family=Poppins):;
+
+body {
+	margin: 0;
+	padding: 0;
+	 font-family: 'poppins-bold', sans-serif !important;
+   
+}
+.flex-container {
+	display: flex;
+  	align-items: center;
+  	justify-content: center;
+}
+
+.flex-container > div {
+  background-color: #f1f1f1;
+  margin: 10px;
+  padding: 20px;
+  font-size: 30px;
+}
+
+.flex-container aside {
+  margin: 10px;
+  padding: 20px;
+  font-size: 12px; color: #ec5136;
+}
+.luna {
+	position: absolute;
+	left: -221px;
+    width: 400px;
+    height: 400px;
+    -moz-border-radius: 200%;
+    -webkit-border-radius: 200%;
+    border-radius: 100%;
+    -moz-box-shadow: 30px 10px 200px 0 #d9534f;
+    -webkit-box-shadow: 200px 200px 0 #fadd34;
+    box-shadow: 150px 0px 0 #fadd34;
+}
+
+
+#perfil {
+	position: relative;
+	width: 300px;
+	height: 300px;
+}
+#sobre-mi {
+	position: relative;
+
+	width: 300px;
+  	background-color: #21cdb4;
+  	border-radius: 150px 150px 0px 0px;
+ 	padding: 50px 0px 10px 70px;
+}
+
+h1 {
+	font-size: 36px;
+	color: #ec5136;
+}
+
+h2.sub{
+	color: black;
+}
+h3{
+	color: #21cdb4
+}
+
+.flex-container article {
+
+  background-color: white;
+  margin: 10px;
+  padding: 20px;
+  font-size: 12px;	
+}
